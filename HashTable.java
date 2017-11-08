@@ -124,7 +124,7 @@ public class HashTable {
 
         if (index[hv] == null ){
            index[hv] = toAdd;
-           System.out.println("added as head: " + str);
+           //System.out.println("added as head: " + str);
            added = true;
            occupied++;
         }
@@ -135,7 +135,7 @@ public class HashTable {
             }
             current.setNext(toAdd);
             added = true;
-            System.out.println("added after head: " + str);
+            //System.out.println("added after head: " + str);
         }
         if(!added){
             System.out.println("not added");
