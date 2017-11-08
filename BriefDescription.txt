@@ -1,0 +1,1 @@
+The size of the array in Part 1 was determined by the number of unique words read in from the text file,  the initial size of the java hash table is actually user defined however the fill ratio is set at 0.78 which i felt was a good way to get an even distribution while also not being the standard java defined fill ratio.
